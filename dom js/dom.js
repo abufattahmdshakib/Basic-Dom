@@ -14,3 +14,7 @@ makeBlue.onclick = function makeBlue() {
 document.body.style.backgroundColor = 'goldenrod';
 
  })
+
+ document.getElementById('btn-make-color').addEventListener('click', function() {
+    document.body.style.background = 'red'; 
+})
