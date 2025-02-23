@@ -9,3 +9,8 @@ const makeBlue = document.getElementById('blue')
 makeBlue.onclick = function makeBlue() {
     document.body.style.backgroundColor = 'blue';
 }
+
+ document.getElementById('golden').addEventListener('click', function(){
+document.body.style.backgroundColor = 'goldenrod';
+
+ })
